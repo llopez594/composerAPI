@@ -1,30 +1,26 @@
 [
     {
         "name": "lichtner/fluentpdo",
-        "version": "v2.1.2",
-        "version_normalized": "2.1.2.0",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/envms/fluentpdo.git",
-            "reference": "3af5c02ec3d38654e0346029ccbcd8aca930a663"
+            "url": "https://github.com/lichtner/fluentpdo.git",
+            "reference": "8a34b9c6742544bda9d193e814101cd065d88875"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/envms/fluentpdo/zipball/3af5c02ec3d38654e0346029ccbcd8aca930a663",
-            "reference": "3af5c02ec3d38654e0346029ccbcd8aca930a663",
+            "url": "https://api.github.com/repos/lichtner/fluentpdo/zipball/8a34b9c6742544bda9d193e814101cd065d88875",
+            "reference": "8a34b9c6742544bda9d193e814101cd065d88875",
             "shasum": ""
         },
-        "require-dev": {
-            "envms/fluent-test": "^1.0",
-            "phpunit/phpunit": "^7.0"
-        },
-        "time": "2018-10-30T11:53:23+00:00",
+        "time": "2015-02-24 20:50:47",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "Envms\\FluentPDO\\": "src/"
-            }
+            "files": [
+                "FluentPDO/FluentPDO.php"
+            ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -33,22 +29,16 @@
         ],
         "authors": [
             {
-                "name": "envms",
-                "homepage": "http://env.ms"
+                "name": "Marek Lichtner",
+                "homepage": "http://licht.sk/"
             }
         ],
-        "description": "FluentPDO is a quick and light PHP library for rapid query building. It features a smart join builder, which automatically creates table joins.",
-        "homepage": "https://github.com/envms/fluentpdo",
+        "description": "FluentPDO is small PHP library for rapid query building. Killer feature is smart join builder which generates joins automatically.",
+        "homepage": "http://fluentpdo.com/",
         "keywords": [
-            "builder",
             "database",
-            "db",
             "dbal",
-            "fluent",
-            "mysql",
-            "oracle",
-            "pdo",
-            "query"
+            "pdo"
         ]
     }
 ]
